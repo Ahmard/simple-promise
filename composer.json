@@ -1,0 +1,15 @@
+{
+    "name": "ahmard/simple-promise",
+    "description": "A simple PHP promise library that works synchronously.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^7.4"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "SimplePromise\\": "src/"
+        }
+    }
+}
